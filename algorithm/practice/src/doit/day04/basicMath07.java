@@ -11,8 +11,6 @@ public class basicMath07 {
         String[] r = br.readLine().split(" ");
         BigInteger a = new BigInteger(r[0]);
         BigInteger b = new BigInteger(r[1]);
-       
-
         System.out.println(a.add(b));
     }
 }
